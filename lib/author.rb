@@ -20,7 +20,7 @@ class Author
 
   def add_post_by_title(title)
     self.posts << title
-    
+
     @@post_count += 1
   end
 
